@@ -1,0 +1,217 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {box-sizing: border-box;}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+
+.navbar-right{
+  font-weight: bold;
+  font-size:170%;
+  letter-spacing: 2px;
+  padding-left: 4px;
+  padding-top: 4px;
+}
+
+.navbar{
+  background:transparent;
+  background-color:transparent;
+  border-color:transparent;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/welcome_img.jpg');
+    min-height: 500px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 30px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+.jumbotron{
+    padding:2%;
+    margin: 8% 3% 8% 5%;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(#89f7fe, #66a6ff);
+    padding-left:4%;
+    padding-top:5%;
+}
+
+
+.data{
+    font-family:Arial,sans-serif;
+    line-height: 1.5em;
+}
+
+.btn{
+    margin-top:30px;
+    text-align: center;
+}
+
+* {box-sizing: border-box}
+.mySlides {
+  display: none;
+  margin: auto;
+}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #C9CACD ;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+#welcomeText {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight:550;
+    font-size:450%;
+    letter-spacing: .15em;
+    text-align:center;
+    position: absolute;
+    top: 40%;
+    left:12%;
+    color: white;
+}
+
+.table_container{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.responsive-table li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .table-header {
+      background-color: #CBE8E8 ;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 9px 0px #44B3B2 ;
+    }
+    .col-1 {
+      flex-basis: 30%;
+    }
+    .col-2 {
+      flex-basis: 40%;
+    }
+    .col-3 {
+      flex-basis: 25%;
+    }
+    .col-4 {
+      flex-basis: 25%;
+    }
+    
+    @media all and (max-width: 767px) {
+      .table-header {
+        display: none;
+      }
+      
+      li {
+        display: block;
+      }
+      .col {
+        
+        flex-basis: 100%;
+        
+      }
+      .col {
+        display: flex;
+        padding: 10px 0;
+      }        
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next{font-size: 11px}
+}
+
+@media only screen and (max-width: 600px) {
+  #welcomeText{
+    font-weight:350;
+    font-size:250%; 
+  }
+}
+
+
+
+
+
